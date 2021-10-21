@@ -9,8 +9,12 @@ public class MainGame : MonoBehaviour
     
     public GameObject pk1Obj;
     public GameObject pk2Obj;
+    
     public InbattlePokemon inbattle1;
     public InbattlePokemon inbattle2;
+
+    public Player player1;
+    public Player player2;
     // Start is called before the first frame update
     void Start()
     {
